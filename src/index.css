@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,14 +22,6 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -64,18 +58,5 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
-  }
-  .nombre{
-    color:#c45b19f0;
-    font-weight:bold;
-  }
-  .subtitle{
-    color:#176bd1f0;
-    font-weight:bold;
-  }
-  .description{
-    color:#0f151bf0;
-    font-weight:bold;
-    font-size:1em;
   }
 }
